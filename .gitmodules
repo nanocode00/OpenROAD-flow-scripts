@@ -7,3 +7,6 @@
 [submodule "tools/yosys-slang"]
 	path = tools/yosys-slang
 	url = https://github.com/povik/yosys-slang.git
+[submodule "flow/designs/src/cnn_verilog"]
+	path = flow/designs/src/cnn_verilog
+	url = https://github.com/nanocode00/cnn_verilog
