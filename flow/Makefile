@@ -83,7 +83,9 @@
 #DESIGN_CONFIG=./designs/ihp-sg13g2/i2c-gpio-expander/config.mk
 
 # Default design
-DESIGN_CONFIG ?= ./designs/nangate45/gcd/config.mk
+#DESIGN_CONFIG ?= ./designs/nangate45/gcd/config.mk
+DESIGN_CONFIG ?= ./designs/asap7/cnn_verilog/config.mk
+
 export DESIGN_CONFIG
 include $(DESIGN_CONFIG)
 
